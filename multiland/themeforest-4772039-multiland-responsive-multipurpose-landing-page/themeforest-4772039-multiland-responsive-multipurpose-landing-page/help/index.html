@@ -1,0 +1,707 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+
+	<link type="text/css" rel="stylesheet" href="styles/SyntaxHighlighter.css"></link>
+
+	<script language="javascript" src="script/shCore.js"></script>
+	<script language="javascript" src="script/shBrushCss.js"></script>
+	<script language="javascript" src="script/shBrushXml.js"></script>
+	<script language="javascript" src="script/shBrushJScript.js"></script>
+	<script language="javascript">
+	window.onload = function () {
+    dp.SyntaxHighlighter.ClipboardSwf = '/script/clipboard.swf';
+    dp.SyntaxHighlighter.HighlightAll('code');
+	}
+	</script>
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		pre, code{ 
+		font-size: 14px;
+		margin:1.5em 0;
+		white-space:pre;
+		}
+	</style>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Multiland Responsive Landing page Template&rdquo; Documentation by &ldquo;Dilipkumar&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Multiland Responsive Landing page Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 05/21/2013<br>
+					By: Dilipkumar<br>
+					Email: <a href="mailto:mobileblogz@yahoo.com">mobileblogz@yahoo.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/dilipkumar">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#Tutorial">Tutorial</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a Responsive layout with four columns. All of the information within the main content area is nested within a div with an id of "container". The sidebar's (column #2) content is within a div with an id of "secondaryContent". The general template structure is the same throughout the template. Here is the general structure.</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<strong>For header</strong>
+<pre name="code" class="html">
+.header {
+		background-color: #hexcode; //---for background change---//
+		color: #hexcode; //---for font color change---//
+}
+</pre>
+
+<strong>For Features Content</strong>
+<pre name="code" class="html">
+.features-content {
+		background-color: #hexcode; //---for background change---//
+		color: #hexcode; //---for font color change---//
+}
+</pre>	
+
+	<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using five CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p> 
+
+		<p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre name="code" class="html">
+
+/*-----------------------------------------------------------------------------------*/
+/* GLOBAL STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* HEADER STYLES
+/*-----------------------------------------------------------------------------------*/	
+css codes
+	
+/*-----------------------------------------------------------------------------------*/
+/* SLIDER WRAP STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+	
+/*-----------------------------------------------------------------------------------*/
+/* FEATURES CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/	
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* CALL-TO-ACTION CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* REASONS CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* ORDER FORM CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* SCREENSHOT CAROUSEL STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* PRICING TABLE CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* CLIENT CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+/*-----------------------------------------------------------------------------------*/
+/* FOOTER CONTENT STYLES
+/*-----------------------------------------------------------------------------------*/
+css codes
+
+
+</pre>
+		
+
+		<p>The third file contains all of the specific stylings for the responsive layout.</p>  
+		<p>The fourth file contains all of the specific stylings for the lightbox plugin.</p>  
+		<p>The fifth file contains all of the specific stylings for the Responsive slider.</p>  
+
+		<p> Dont change anything in third(foundation.css) and fourth(prettyphoto.css) files.
+
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports eleven Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+		</ol>
+		  
+		<strong>Details</strong>
+		<ol>
+			<li>jquery-1.8.3.min.js - To enable jQuery</li>
+			<li>jquery.flexslider.js - Responsive flexslider plugin</li>
+			<li>foundation.min.js - Foundation framework support Plugin</li>
+			<li>modernizr.foundation.js- Modernizr Plugin</li>
+			<li>app.js - Foundation framework support Plugin</li>
+			<li>jquery.tweet.js- Twitterfeed Plugin</li>
+			<li>jquery.carouFredSel-6.2.1-packed - Carousel plugin</li>
+			<li>jquery.prettyphoto.js- Lightbox plugin</li>
+			<li>jquery.foundation.forms- Custom forms Plugin</li>
+			<li>jquery.foundation.tabs- Tabs Plugin</li>
+			<li>main.js- Custom theme support file</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="Tutorial"><strong>D) Tutorial</strong> - <a href="#toc">top</a></h3>
+
+		<p>Follow the steps below to change the demo contents with your own contents.</p>
+	
+<p>We have ten sections in this template.</br>
+</br>
+</br>
+
+<p><strong>1. HEADER SECTION</strong></p>
+<p>Here, you must change three things.</p>
+
+<p>A. Logo
+</br>
+B. Nav menu
+</p>
+</br>
+C. Social Icons
+</p>
+
+<p><strong>A. Logo</strong></p>
+<p>To replace the logo name, find this code</p>
+
+<pre name="code" class="html">
+	<h1><a href="./index.html">Multiland</a></h1>
+</pre>
+<p>here, replace "Multiland." with your logo name.</p>
+
+</br>
+</br>
+
+<p>To replace the logo with image, replace the above code with this</p>
+
+<pre name="code" class="html">
+	<h1><a href="./index.html"><img src="images/logo.png" alt""/></a></h1>
+</pre>
+<p>here, replace the link "images/logo.png" with your logo image url or update in the folder path "template/images/logo.png" with yours.</p>
+
+<p><strong>Image size</strong></br>
+125x30 (width x height)</p>
+</br>
+
+<hr>
+
+<p><strong>B. Nav Menu</strong></p>
+
+<p>Find this code</p>
+
+<pre name="code" class="html">
+				<ul id="navigation">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./subpage.html">About</a></li>
+					<li><a href="./subpage.html">News</a></li>	
+					<li><a href="mailto:someone@website.com">Contact</a></li>
+				</ul>
+</pre>
+
+<p>replace "./subpage.html" your the link to the subpage (Update as per the menu name About, News, etc...).
+
+</br>
+</br>
+
+<hr>
+
+<p><strong>C. Social Icons</strong></p>
+
+<p>Find this code</p>
+
+<pre name="code" class="html">
+				<ul class="social-networks">
+					<li><a href="#"><img src="images/tweet.png" alt=""/></a></li>
+					<li><a href="#"><img src="images/fb.png" alt=""/></a></li>
+					<li><a href="#"><img src="images/ghub.png" alt=""/></a></li>
+					<li><a href="#"><img src="images/linkedin.png" alt=""/></a></li>
+				</ul>
+</pre>
+
+<p>replace "#" your the social link as per the image name. (Tweet = twitter , fb = facebook, ghub = github, linkedin = linkedin).</p>
+<p>If you want to replace a social icons just add the social icon image to the "images" folder and link the source to the html code.</p>
+<p>If you want to delete a social icons, just delete the whole code of it.</p>
+
+</br>
+</br>
+
+<hr>
+
+</br>
+
+<p><strong>2. RESPONSIVE FLEXSLIDER</strong></p>
+<p>Here, you can add content in three styles.</p>
+
+<p>A. Image
+</br>
+B. Side info
+</br>
+</p>
+
+<p><strong>A. Image on right & Content on left</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+					<ul class="slides row">
+						<li><img src="demo/slider/1.png" alt=""/></li>
+						<li><img src="demo/slider/2.png" alt=""/></li>
+					</ul>
+</pre>
+
+<p>replace "demo/slider/1.png" with your image path or url. Same for the second slider.</p>
+
+</br>
+<p><strong>Image size</strong></br>
+700x617 (width x height)</p>
+
+</br>
+</br>
+<hr>
+
+<p><strong>B. Side info</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+				<h3>Welcome to multiland landing page</h3>
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestased lacinia diam eget sem varius suscipit mauris vehicula libero quis pulvinar volutpat justo sem eleifend elit nec laoreet elit ligula non neque vivamus euante pretium justo.</p>
+				<div class="space35"></div>
+				<a class="app-btn uppercase" href="#">Order now!</a>
+</pre>
+
+<p>and replace the text between "&lt;h3&gt;" "&lt;/h3&gt;" with some title.</p>
+<p>and replace the text between "&lt;p&gt;" "&lt;/p&gt;" with some description.</p>
+<p>and replace the "#" in the button code with a link</p>
+</br>
+</br>
+<hr>
+
+<p><strong>3. PRODUCT FEATURES SECTION</strong></p>
+
+<p>Find this code</p>
+
+<pre name="code" class="html">
+			<div class="features-content">
+				<div class="features-icon"><img src="images/ico4.png" alt=""/></div>
+				<div class="features-description">
+					<h6>Responsive Design</h6>
+					<p>Donec at nibh id dolor dictum venenatis vitae et massa facilisis sem diam.</p>
+				</div>
+			</div>
+</pre>
+
+<p>Replace as follows</p>
+
+<pre name="code" class="html">
+	<div class="features-icon"><img src="images/ico1.png" alt=""/></div>
+</pre>
+
+<p>replace "<strong>images/ico1.png</strong>" with the link or source to the icon image.</p>
+
+<pre name="code" class="html">
+	<div class="features-description">
+		<h6>Responsive Design</h6>
+		<p>Donec at nibh id dolor dictum venenatis vitae et massa facilisis sem diam.</p>
+	</div>
+</pre>
+
+<p>Here replace "responsive design" with your feature title.</p>
+<p>and replace the text between "&lt;p&gt;" "&lt;/p&gt;" with your feature description.</p>
+
+<p>Do the same for all the six product feature columns</p>
+</br>
+</br>
+
+<hr>
+<p><strong>4. CTA WRAP</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+	<div class="twelve columns cta-wrap">
+		<div class="nine columns">
+			<p>Suspendisse potenti. Sed accumsan pulvinar eget lobortis.</p>
+		</div>
+		<div class="three columns">
+			<a class="app-btn uppercase right cta-btn" href="#">Learn more</a>
+		</div>
+	</div>
+</pre>
+
+<p>and replace the text between "&lt;p&gt;" "&lt;/p&gt;" with some content.</p>
+<p>and replace the "#" in the button code with a link</p>
+</br>
+</br>
+
+<hr>
+
+<p><strong>5. REASONS AND FORM SECTION </strong></p>
+<p>For the forms we have only added the html elements. You can use your own php / mysql / custom scripts there.</p>
+</br>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+		<div class="six columns">
+			<h3>Reasons to choose this product.</h3>
+			<div class="space30"></div>
+			<p>Phasellus et nisi lorem. Proin egestas adipiscing consectetur. Maecenas erat quam euismod in egestas eget luctus non neque. Praesent pellentesque euismod felis nec dignissim.</p>
+			<ul class="list">
+				<li>Nulla hendrerit nulla nec eros porta id sagittis lectus convallis. Cras vitae enim at purus cursus sagittis. Duis ut diam purus nec porttitor mi.</li>
+				<li>Pellentesque laoreet dignissim neque in accumsan justo rhoncus quis. Proin ac massa felis ut gravida arcu. Cras vel justo lacus ut hendrerit nunc.</li>
+				<li>Nulla hendrerit nulla nec eros porta id sagittis lectus convallis. Cras vitae enim at purus cursus sagittis. Duis ut diam purus nec porttitor mi.</li>
+				<li>Pellentesque laoreet dignissim neque in accumsan justo rhoncus quis. Proin ac massa felis ut gravida arcu. Cras vel justo lacus ut hendrerit nunc.</li>
+			</ul>
+		</div>
+</pre>
+
+<p>and replace the text between "&lt;h3&gt;" "&lt;/h3&gt;" with reasons title.</p>
+<p>and replace the text between "&lt;p&gt;" "&lt;/p&gt;" with reasons description.</p>
+<p>and replace the text between "&lt;li&gt;" "&lt;/li&gt;" with reasons list content.</p>
+
+</br>
+</br>
+<hr>
+
+<p><strong>6. SCREENSHOT CAROUSEL WRAP</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+				<li>
+					<a href="demo/mason/1.jpg" rel="prettyPhoto" title="">
+						<div class="thumb"><img src="demo/mason/1.jpg" alt="" />
+							<span class="thumb-inner" >
+							</span>
+						</div>
+					</a>
+				</li>
+</pre>
+
+
+<p>Here replace the content between the div "&lt;df class='plan_more'&gt;" with the pricing title.</br>
+<p>Here replace the content between the div "&lt;df class='plan_price'&gt;" with the plan price.</br>
+<p>Here replace the content between the div "&lt;div class="feature_desc"&gt;" with the features.</br>
+<p>Here replace the '#' between the div "&lt;dd class="plan_buy"&gt;" with the link to the product or plan page.</br>
+
+<pre name="code" class="html">
+<img src="demo/mason/1.jpg" alt""/>
+</pre>
+
+replace <strong>"demo/mason/1.jpg"</strong> with your image link.
+
+
+<strong>For lightbox image</strong>
+
+<pre name="code" class="html">
+	<a href="demo/mason/1.jpg" rel="prettyPhoto" title=""></a>
+</pre>
+
+replace as follows
+
+<pre name="code" class="html">
+<a href="YOUR LIGHTBOX IMAGE URL HERE" rel="prettyPhoto"></a>
+</pre>
+
+<p>As the template is responsive the image will be automatically resized.</br>
+</br>
+Image size used in the demo : <strong>900x600</strong></p>
+
+</br>
+</br>
+
+<hr>
+
+<p><strong>7. PRICING TABLE </strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+			<div class="column_1 four columns">
+				<ul>
+					<li class="header_row_1 align_center">
+						<div class="pack-title">Basic</div>
+					</li>
+					<li class="header_row_2 align_center">
+						<div class="price"><span>$29</span></div>
+						<div class="time">per year</div>
+					</li>
+					<li class="row_style_1 align_center"><span>10GB Space</span></li>
+					<li class="row_style_1 align_center"><span>15GB Bandwidth</span></li>
+					<li class="row_style_1 align_center"><span>5 FTP Accounts</span></li>
+					<li class="row_style_1 align_center"><span>3 Email Accounts</span></li>
+					<li class="row_style_1 align_center"><span>200 Subscribers</span></li>
+					<li class="row_style_footer_1" style="height:60px;padding-top:12px;"><a href="#" class="secondary button radius">Sign Up</a></li>
+				</ul>
+			</div>
+</pre>
+
+<p>replacing the contents on the pricing table is an easy task. Check the above code, all contents in seperate div to make easy to update.</p>
+
+</br>
+</br>
+<hr>
+
+
+<p><strong>8. TABS & TESTIMONIALS</strong></p>
+<p>Find this code</p>
+
+<p><strong>A. Tabs</strong></p>
+
+<pre name="code" class="html">
+		<ul class="tabs-content">
+			<li class="active" id="simple1Tab">
+				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. In non libero est eu pharetra nibh. Etiam rutrum hendrerit nisi eu consequat. Cras rutrum massa eget eleifend scelerisque purus tellus venenatis lacus quis scelerisque purus metus a metus. In mauris mi accumsan non tincidunt non tempor eget nisl. Maecenas magna libero tempus et ultricies congue, porta consequat ligula.</p>
+			</li>
+
+			<li id="simple2Tab">
+				<p>Duis lobortis massa vel ante ornare vel pretium tellus bibendum. Nulla gravida nisi et nisi vulputate quis tincidunt velit consequat. Vestibulum sollicitudin feugiat accumsan. Duis eu massa in tellus varius elementum sit amet et quam. Morbi sit amet nisl dui. Nulla tincidunt nisl a lorem lobortis sed dignissim dolor bibendum. Class aptent taciti sociosqu ad litora per conubia</p>
+			</li>
+
+			<li id="simple3Tab">
+				<p>Sed porta neque a dolor condimentum hendrerit. Sed venenatis tellus et turpis viverra sollicitudin. Morbi commodo tincidunt turpis at rutrum enim tincidunt vel. Quisque tristique risus malesuada arcu commodo consequat. Nullam odio dui facilisis vitae dictum ut tincidunt a ante. Donec condimentum quam in orci viverra consequat tristique quam accumsan nulla.</p>
+			</li>
+		</ul>
+</pre>
+
+<p>replace the text between "&lt;p&gt;" "&lt;/p&gt;". The first "li" is the first tab, followed by second and third.</p>
+
+</br>
+</br>
+
+<p><strong>B. Testimonials</strong></p>
+
+<pre name="code" class="html">
+			<ul class="slides">
+				<li>
+					<img src="demo/team/1.jpg" alt=""/>
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. In non libero est eu pharetra nibh. Etiam rutrum hendrerit nisi.</p>
+					<span>John doe, xyz Company</span>
+				</li>
+				<li>
+					<img src="demo/team/2.jpg" alt=""/>
+					<p>Duis lobortis massa vel ante ornare vel pretium tellus bibendum. Nulla gravida nisi etvul putate quis tincidunt velit .</p>
+					<span>John doe, xyz Company</span>
+				</li>
+			</ul>
+</pre>
+
+<p>replace "<strong>demo/team/1.jpg</strong>" with the client photo image.</p>
+<p>replace the text between "&lt;p&gt;" "&lt;/p&gt;" with the quote.</p>
+<p>replace the text between "&lt;span&gt;" "&lt;/span&gt;" with the client name and company.</p>
+</br>
+</br>
+<hr>
+
+<p><strong>9. CLIENTS SECTION</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+		<div class="three columns clients">
+			<img src="demo/clients/1.jpg" alt=""/>
+		</div>
+</pre>
+
+<p>Replace "<strong>demo/clients/1.jpg</strong>" with the client logo. Same for all four.</p>
+</br>
+</br>
+<hr>
+
+<p><strong>10. TRIAL DOWNLOAD CONTENT</strong></p>
+<p><strong>Social Icons</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+	<div class="twelve columns wrap2">
+		<h4>Still not convinced. Take a free trial ?</h4>
+		<div class="space25"></div>
+		<a class="app-btn radius center" href="#">Signup for 30days free trial</a>
+		<p>No credit card required</p>
+	</div>
+</pre>
+
+<p>replace the text between "&lt;h4&gt;" "&lt;/h4&gt;" with some title.</p>
+<p>replace the text between "&lt;p&gt;" "&lt;/p&gt;" with some special note like "No credit card", "No signup".</p>
+<p>replace the "#" in the button code with the link and "<strong>Signup for 30days free trial</strong>" with the button text.</p>
+</br>
+</br>
+<hr>
+
+<p><strong>11. Footer</strong></p>
+<p><strong>Social Icons</strong></p>
+<p>Find this code</p>
+
+<p><strong>Contact details</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+	<ul class="contact-details">
+		<li class="address">#12B, Abcd Street xyz company XY 12345</li>
+		<li class="phone">+1800 1234 5678</li>
+		<li class="email">Support@website.com</li>
+		<li class="email">johndoe@website.com</li>
+	</ul>
+</pre>
+
+replace <strong>#12B, Abcd Street xyz company XY 12345</strong> with your company address.</br>
+replace <strong>+1800 1234 5678</strong> with your company contact number.</br>
+replace <strong>Support@website.com</strong> with your company email.</br>
+replace <strong>johndoe@website.com</strong> with your individual email.</br>
+
+</br>
+</br>
+<hr>
+
+<p><strong>News widget</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+			<ul class="news-widget">
+				<li><a href="#">Libero est eu pharetra</a></li>
+				<li><a href="#">Etiam rutrum hendrerit nisi</a></li>
+				<li><a href="#">Cras rutrum massa eget</a></li>
+				<li><a href="#">Cupsum dolor sit amet</a></li>
+			</ul>
+</pre>
+
+replace as follows
+
+<pre name="code" class="html">
+	<li><a href="LINK TO THE PAGE">TITLE FOR THE NEWS</a></li>
+</pre>
+
+</br>
+</br>
+<hr>
+
+
+<p><strong>Twitterfeed</strong></p>
+
+Open index.html to update twitterfeed
+
+<p>Find this Twitter ID</p>
+
+<pre name="code" class="html">
+envato
+</pre>
+
+replace it with your twitter ID. Save and close the file.</br>
+
+</br>
+<p>About the twitter ID, you can see the following code</p>
+
+<pre name="code" class="html">
+	count: 2,
+</pre>
+this is the count for number of tweets to be shown.
+<br>
+
+After doing this, follow the instructions in this <a href="http://www.dave-woods.co.uk/custom-jquery-and-php-twitter-widget/" target="_blank">link</a> to make the twitterfeed work.
+
+</br>
+</br>
+<hr>
+
+
+<p><strong>Copyright content</strong></p>
+<p>Find this code</p>
+
+<pre name="code" class="html">
+				<h3>Multiland</h3>
+				<p>&copy; 2013. Designed by dkpixels.</p>
+</pre>
+
+<p>replace "Multiland" with the website name and "Designed by dkpixels." with some copyright content.</p>
+
+</br>
+</br>
+<hr>
+
+<h3>Thats it. You are done. Now your landing page is ready to launch.</h3>
+
+</br>
+</br>
+</br>
+<hr>
+
+		
+	
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, cons, plugins, fonts or other files as listed.
+		<div style="clear:both;"></div>
+		<ul>
+			<li>Images used from <a href="http://www.behance.net/gallery/Logos-2011-2012/3320178" target="_blank">http://www.behance.net/gallery/Logos-2011-2012/3320178</a></li>
+			<li>Icons from <a href="http://iconfinder.com/" target="_blank">Iconfinder</a></li>
+			<li>Google WebFont used - <a href="http://www.google.com/webfonts/specimen/Open+Sans" target="_blank">Open Sans</a></li>
+			<li>Flexslider plugin from <a href="www.woothemes.com/flexslider/">Woothemes</a></li>
+			<li>Carousel plugin - <a href="http://caroufredsel.dev7studios.com/">Caroufredsel</a></li>
+			<li>Prettyphoto lightbox plugin from <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">No-margin-for-errors.com</a></li>
+		</ul>		
+		<hr>
+		<p> All images, Icons, Logos, Fonts used in this template are free for commercial use.</p>
+		
+
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Dilipkumar</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
