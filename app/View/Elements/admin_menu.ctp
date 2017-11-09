@@ -36,6 +36,20 @@
             <li><a href="#" id="galleryManager"><i class="fa fa-image"></i> View/Edit Galleries</a></li>
 
           </ul>
+        </li>                
+        <li class="<?= $section == 'web' ? 'active' : ''; ?> treeview">
+          <a href="#">
+            <i class="fa fa-globe"></i> <span>Example Queries</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+                   
+          <ul class="treeview-menu">
+            <li><a href="/admin/presentation/query1"><i class="fa fa-edit"></i> Example #1 </a></li>
+            <li><a href="/admin/presentation/query2"><i class="fa fa-edit"></i> Example #2 </a></li>
+            <li><a href="/admin/presentation/query3"><i class="fa fa-edit"></i> Example #3 </a></li>
+            <li><a href="/admin/presentation/query4"><i class="fa fa-edit"></i> Example #4 </a></li>
+
+          </ul>
         </li>
 
        
