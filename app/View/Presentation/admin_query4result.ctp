@@ -8,8 +8,8 @@
 <table class="order-table">
     <tr>
         <th><strong>Results</strong></th>
-        <th colspan="3">Desktop QB</th>
-        <th colspan="4">Enterprise</th>
+        <th style="background-color:red;" colspan="3">Desktop QB</th>
+        <th style="background-color:white;" colspan="4">Enterprise</th>
     </tr>
     <tr>
         <th><strong>Features/Benefits</strong></th>
@@ -25,40 +25,40 @@
         <td>Work In / Open 2 Files Simultaneously</td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Billing Rate Levels</td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Disallow sales to overdue customers</td>
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Change Order on Estimate</td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
 </table>

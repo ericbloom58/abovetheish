@@ -8,10 +8,10 @@
 <table class="order-table">
     <tr>
         <th><strong>Results</strong></th>
-        <th rowspan="2">Self Employed </th>
-        <th colspan="4">QBO</th>
-        <th colspan="3">Desktop QB </th>
-        <th colspan="4">Enterprise </th>
+        <th style="background-color:red;" rowspan="2">Self Employed </th>
+        <th style="background-color:white;" colspan="4">QBO</th>
+        <th style="background-color:yellow;" colspan="3">Desktop QB </th>
+        <th style="background-color:red;" colspan="4">Enterprise </th>
     </tr>
     <tr>
         <th><strong>Features/Benefits</strong></th>
@@ -29,18 +29,18 @@
     </tr>
     <tr>
         <td>Reports - Profit & Loss</td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Balance Sheet by Class</td>
@@ -50,27 +50,27 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Profit and Loss by Class</td>
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Profit & Loss Unclassified</td>
@@ -79,27 +79,27 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Adjusted Trial Balance</td>
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
 </table>

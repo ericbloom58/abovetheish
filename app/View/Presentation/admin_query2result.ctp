@@ -8,12 +8,12 @@
 <table class="order-table">
     <tr>
         <th><strong>Results</strong></th>
-        <th colspan="4">POS</th>
-        <th colspan="3">Desktop QB </th>
-        <th colspan="2">Enterprise </th>
-        <th rowspan="2">Self Employed </th>
-        <th colspan="4">QBDO</th>
-        <th colspan="3">Desktop QB </th>
+        <th style="background-color:red;" colspan="4">POS</th>
+        <th style="background-color:white;" colspan="3">Desktop QB </th>
+        <th style="background-color:yellow;" colspan="2">Enterprise </th>
+        <th style="background-color:red;" rowspan="2">Self Employed </th>
+        <th style="background-color:white;" colspan="4">QBDO</th>
+        <th style="background-color:yellow;" colspan="3">Desktop QB </th>
     </tr>
     <tr>
         <th><strong>Features/Benefits</strong></th>
@@ -39,12 +39,12 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
         <td></td>
@@ -59,12 +59,12 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
         <td></td>
@@ -77,22 +77,22 @@
     <tr>
         <td>Time Tracking From Within Software</td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td></td>
-        <td></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td></td>
+        <td></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
     <tr>
         <td>Invoice from Time & Expenses</td>
@@ -107,11 +107,11 @@
         <td></td>
         <td><strong>Expenses Only</strong></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
         <td></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
-        <td style="background-color:gray; color:white;"><strong>X</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
+        <td style="background-color:gray; color:white;"><strong>√</strong></td>
     </tr>
 </table>
