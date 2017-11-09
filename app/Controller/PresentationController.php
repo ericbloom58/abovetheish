@@ -28,5 +28,23 @@ class PresentationController extends AppController {
     }
     function admin_query1result() {
         
+    }    
+    function admin_query2() {
+        
+    }
+    function admin_query2result() {
+        
+    }
+    function admin_query3() {
+        
+    }
+    function admin_query3result() {
+        
+    }
+    function admin_query4() {
+        
+    }
+    function admin_query4result() {
+        
     }
 }
